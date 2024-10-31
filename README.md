@@ -23,10 +23,11 @@ GPTConfig(block_size=256, vocab_size=50280, n_layer=12, n_head=12, n_embd=768, d
 [webMedQA](https://github.com/hejunqing/webMedQA) 一个医学在线问答数据集，包含6万个问题和31万个回答。
 
 ## 预处理
-提取问答对，并合并到input.txt中,并拆分为训练集和验证集，文本采用p50k_base编码，编码后的文件为train.bin和val.bin，即为训练集和验证集
+提取问答对，并合并到input.txt中,并拆分为训练集和验证集，文本采用p50k_base编码，编码后的文件为train2.bin和val2.bin，即为训练集和验证集
 共得到问答对29万条，token合计1亿零500万(具体见https://github.com/ecsfu/nanoGPT_Chinese)
 
 硬件：	RTX 2080 Ti * 1卡
+
 训练约16000步。
 
 ## 使用
