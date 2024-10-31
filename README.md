@@ -41,3 +41,8 @@ GPTConfig(block_size=256, vocab_size=50280, n_layer=12, n_head=12, n_embd=768, d
 
 ![img_2.png](img_2.png)
 
+## 补充文件
+其它参数文件以及数据集截图
+
+![img_3.png](img_3.png)
+
