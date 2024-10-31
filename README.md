@@ -31,6 +31,7 @@ GPTConfig(block_size=256, vocab_size=50280, n_layer=12, n_head=12, n_embd=768, d
 训练约16000步。
 
 ## 使用
+Checkpoint文件下载地址：https://drive.google.com/drive/folders/13aC0NKEwWdwar0JPpYXar2ZSwLyM8NUj?usp=drive_link  \
 1.主目录新建output文件夹，下载ckpt2-16000.pt放到output文件夹下 \
 2.运行sample.py,start变量输入提示词，模型开始自动生成。
 
